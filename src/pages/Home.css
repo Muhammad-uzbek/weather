@@ -7,6 +7,7 @@
     overflow-y: scroll;
     border: 2px solid rgb(165, 165, 165);
     border-radius: 10px;
+    margin: 0 auto;
 }
 @media screen and (max-width: 768px){
     .home{
