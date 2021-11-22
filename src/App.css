@@ -1,0 +1,16 @@
+.app {
+  margin-top: 0px;
+  padding-top: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cold-quotes-1575930075.jpg?crop=0.671xw:1.00xh;0.128xw,0&resize=640:*');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+@media screen and (max-width: 760px) {
+  .app {
+    background-size: cover;
+  }
+}
+  

@@ -1,0 +1,87 @@
+div.box {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #f9f9f97a;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  min-height: 200px;
+  margin-top: 150px;
+}
+
+div.box div.city-container {
+  padding-top: 20px;
+  padding-left: 20px;
+  height: 35px;
+}
+div.box p.city {
+  color: white;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: left;
+}
+div.box span.temp {
+  font-family: sans-serif;
+  font-size: 60px;
+  border-radius: 10px;
+}
+
+div.box img.icon {
+  display: block;
+  margin: 0px auto;
+}
+
+div.box span.description {
+  font-family: monospace;
+}
+
+div.box div.info {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+div.box-empty {
+  padding: 25px;
+}
+
+@media screen and (max-width: 500px) {
+  div.box {
+    width: 80%;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  div.box div.city-container {
+    margin: 0 auto;
+    height: 30px;
+  }
+  div.box p.city {
+    color: white;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: left;
+    text-align: center;
+  }
+  div.box span.temp {
+    font-family: sans-serif;
+    font-size: 60px;
+    border-radius: 10px;
+    padding-top: 30px;
+  }
+  div.box img.icon {
+    display: block;
+    margin: 0px auto;
+  }
+  div.box span.description {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  div.box div.info {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  div.box-empty {
+    padding: 0px;
+  }
+}

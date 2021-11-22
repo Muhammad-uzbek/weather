@@ -1,0 +1,19 @@
+.home{
+    display: flex;
+}
+.choices{
+    height: calc(100vh - 194px);
+    padding: 10px;
+    overflow-y: scroll;
+    border: 2px solid rgb(165, 165, 165);
+    border-radius: 10px;
+}
+@media screen and (max-width: 768px){
+    .home{
+        flex-direction: column;
+    }
+    .choices{
+        width: 100%;
+        height: auto;
+    }
+}
