@@ -16,6 +16,7 @@
     .choices{
         width: 100%;
         height: auto;
-        margin: 0 auto;
+        margin: 5px auto;
+        padding: 10px auto;
     }
 }
